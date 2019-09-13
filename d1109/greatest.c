@@ -1,3 +1,5 @@
+//To find greatest between three numbers
+
 #include<stdio.h>
 int main()
 {

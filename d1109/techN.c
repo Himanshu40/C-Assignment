@@ -1,3 +1,5 @@
+//To verify if a number is a tech number or not
+
 #include<stdio.h>
 int main()
 {
