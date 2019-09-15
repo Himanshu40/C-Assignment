@@ -1,4 +1,9 @@
-//To verify if a number is a tech number or not
+/*
+ *PROGRAM : To check if a number is a tech number or not
+ *FILE : techN.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 11/09/2019
+ */
 
 #include<stdio.h>
 int main()

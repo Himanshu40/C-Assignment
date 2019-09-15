@@ -1,4 +1,9 @@
-//To verify if a number is even or odd
+/*
+ *PROGRAM : To check if a number is even or odd
+ *FILE : evenorodd.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 11/09/2019
+ */
 
 #include<stdio.h>
 int main()

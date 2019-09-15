@@ -1,4 +1,9 @@
-//To swap two numbers without using third variable
+/*
+ *PROGRAM : To swap the values of two variables without third variable
+ *FILE : swap.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 11/09/2019
+ */
 
 #include<stdio.h>
 int main()

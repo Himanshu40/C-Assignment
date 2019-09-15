@@ -1,4 +1,9 @@
-//To find greatest between three numbers
+/*
+ *PROGRAM : To check greatest between three numbers
+ *FILE : greatest.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 11/09/2019
+ */
 
 #include<stdio.h>
 int main()
