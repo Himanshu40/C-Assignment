@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To compute the discount and prepare an invoice report of a cloth store 
+ *FILE : discount.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 14/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {
