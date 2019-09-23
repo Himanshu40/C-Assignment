@@ -9,11 +9,11 @@
 int main()
 {
 	int num, rem1, rem2, techN;
-	
+
 	printf("Enter a 4-digit integer = ");
 	scanf("%d", &num);
 
-	if(sizeof(num) == 4)
+	if(num >= 1000 && num <= 9999)
 	{
 		rem1 = num/100;
 		rem2 = num%100;
@@ -24,7 +24,7 @@ int main()
 			printf("%d is not a tech number\n", num);
 	}
 	else
-		printf("You have entered %d digits\n", sizeof(num));
+		printf("You have entered more than 4 digits\n");
 
 	return 0;
 }
