@@ -1,3 +1,11 @@
+/*
+ *PROGRAM : To compute the sum of individual digits of +ve integer and 
+ *	    display the input number & it's sum of digits
+ *FILE : computeSum.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

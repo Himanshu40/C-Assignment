@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To check an integer is armstrong number or not
+ *FILE : checkAlNum.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 #include<math.h>
 int main()

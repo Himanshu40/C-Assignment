@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To read a +ve integer and display as PALINDROME or not
+ *FILE : palindrome.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

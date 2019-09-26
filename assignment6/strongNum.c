@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To check an integer is STRONG number or not
+ *FILE : strongNum.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {
