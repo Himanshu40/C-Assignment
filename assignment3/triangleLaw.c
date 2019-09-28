@@ -16,13 +16,15 @@ int main()
 	scanf("%f", &side2);
 	printf("\nEnter size of 3rd side of a triangle: ");
 	scanf("%f", &side3);
-
-	if(side1==side2 && side2==side3)
-		printf("\nIt's an Equilateral triangle\n");
-	else if(side1==side2 || side2==side3 || side1==side3)
-		printf("\nIt's an Isosceles triangle\n");
-	else if(side1!=side2 && side2!=side3 && side1!=side3)
-		printf("\nIt's a Scalene triangle\n");
+	if((side1+side2 > side3) && (side2+side3 > side1) && (side3+side2 > side1))
+	{
+		if(side1==side2 && side2==side3)
+			printf("\nIt's an Equilateral triangle\n");
+		else if(side1==side2 || side2==side3 || side1==side3)
+			printf("\nIt's an Isosceles triangle\n");
+		else	
+			printf("\nIt's a Scalene triangle\n");
+	}
 	else
 		printf("\nEntered size doesn't satisfy any triangle's law\n");
 

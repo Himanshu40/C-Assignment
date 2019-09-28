@@ -9,14 +9,11 @@
 int main()
 {
 	char key;
-	int conv;
 
 	printf("Enter any key: ");
 	scanf("%c", &key);
 
-	conv = (int)key;
-
-	if(((conv >= 48) && (conv <= 57)) || ((conv >= 65) && (conv <= 90)) || ((conv >= 97) && (conv <= 122)))
+	if(((key >= 'A') && (key <= 'Z')) || ((key >= 'a') && (key <= 'z')) || ((key >= '0') && (key <= '9')))
 		printf("%c is alpha-numeric\n", key);
 	else
 		printf("The key pressed is not alpha-numeric\n");	
