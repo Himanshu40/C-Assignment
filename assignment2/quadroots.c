@@ -19,7 +19,7 @@ int main()
 	if(disc > 0)
 	{
 		root1 = (-b+sqrt(disc))/(2*a);
-		root2 = (b+sqrt(disc))/(2*a);
+		root2 = (-b-sqrt(disc))/(2*a);
 
 		printf("\nroot 1 = %.2f and root 2 = %.2f\n", root1, root2);
 	}

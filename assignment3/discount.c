@@ -36,12 +36,12 @@ int main()
 		handDis = 7.5;
 		millAmount -= millAmount*(millDis/100);
 		handAmount -= handAmount*(handDis/100);
-		disAmount = millAmount + disAmount;
+		disAmount = millAmount + handAmount;
 	}
 	else if((totalAmount >= 201) && (totalAmount <= 300))
 	{
 		millDis = 7.5;
-		handDis = 10;
+		handDis = 10.0;
     		millAmount -= millAmount*(millDis/100);
     		handAmount -= handAmount*(handDis/100);
 		disAmount = millAmount + handAmount;
