@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To print the product from range n1 to n2 for +ve int
+ *FILE : printRangeProd.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : /09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

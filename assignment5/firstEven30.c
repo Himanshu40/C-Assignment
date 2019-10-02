@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To print the first 30 +ve even integers
+ *FILE : firstEven30.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : /09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

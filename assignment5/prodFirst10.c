@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To print the product of first 10 +ve integers
+ *FILE : first50.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 14/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

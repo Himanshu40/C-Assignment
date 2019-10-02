@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To print the factorial of a number
+ *FILE : factorial.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : /09/2019
+ */
+
 #include<stdio.h>
 int main()
 {
