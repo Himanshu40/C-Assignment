@@ -2,7 +2,7 @@
  *PROGRAM : To find the area of circle, rectangle, square, triangle using switch case 
  *FILE : area.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : /09/2019
+ *DATED : 19/09/2019
  */
 
 #include<stdio.h>

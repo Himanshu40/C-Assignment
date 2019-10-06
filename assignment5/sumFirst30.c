@@ -2,7 +2,7 @@
  *PROGRAM : To print the sum of first 30 +ve integers
  *FILE : sumFirst30.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : /09/2019
+ *DATED : 20/09/2019
  */
 
 #include<stdio.h>

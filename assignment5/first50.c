@@ -2,7 +2,7 @@
  *PROGRAM : To print the first 50 +ve integers 
  *FILE : first50.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : /09/2019
+ *DATED : 20/09/2019
  */
 
 #include<stdio.h>

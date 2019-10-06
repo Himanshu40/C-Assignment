@@ -2,7 +2,7 @@
  *PROGRAM : To check a character entered as vowel or consonant, alphabet or not  
  *FILE : check.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : /09/2019
+ *DATED : 19/09/2019
  */
 
 #include<stdio.h>
