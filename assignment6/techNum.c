@@ -15,7 +15,7 @@ int main()
 	
 	temp = num;
 
-	while(temp != 0)
+	while(temp)
 	{
 		temp /= 10;
 		count++;
@@ -28,7 +28,7 @@ int main()
 		while(i <= (count/2))
 		{
 			rem = temp%10;
-			lastHalf = lastHalf + rem*place;
+			lastHalf += rem*place;
 			place *= 10;
 			temp /= 10;
 			i++;	
