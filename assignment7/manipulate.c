@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int num, temp, count = 0;
+	int num, temp, rem, count = 0;
 
 	printf("Enter a number: ");
 	scanf("%d", &num);
@@ -19,13 +19,14 @@ int main()
 	while(count)
 	{
 		rem = temp % 10;
-		if(count % 2 != 0)
-			printf("The square of %d is %d", );
+		if(count % 2 == 0)
+			printf("\nThe square of %d is %d", rem, (rem*rem));
 		else
-			printf("");
+			printf("\nThe cube of %d is %d", rem, (rem*rem*rem));
 		temp /= 10;
 		count--;
 	}
+	printf("\n");
 
 	return 0;
 }
