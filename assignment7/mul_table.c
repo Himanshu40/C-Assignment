@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To display multiplication table of any integer
+ *FILE : mul_table.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

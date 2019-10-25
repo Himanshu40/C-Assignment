@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To convert and add the digits of a number till reduced to single digit
+ *FILE : singleDigit.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

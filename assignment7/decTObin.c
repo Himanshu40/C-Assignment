@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To convert decimal number into binary number
+ *FILE : decTObin.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {

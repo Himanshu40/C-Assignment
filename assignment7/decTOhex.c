@@ -1,3 +1,10 @@
+/*
+ *PROGRAM : To convert decimal number into hexa decimal number
+ *FILE : decTOhex.c
+ *CREATED BY : Himanshu Sekhar Nayak
+ *DATED : 23/09/2019
+ */
+
 #include<stdio.h>
 int main()
 {
