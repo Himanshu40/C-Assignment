@@ -2,7 +2,7 @@
  *PROGRAM : To display cosine series
  *FILE : cos_series.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : 23/09/2019
+ *DATED : 27/09/2019
  */
 
 #include<stdio.h>

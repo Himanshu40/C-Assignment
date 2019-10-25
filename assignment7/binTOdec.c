@@ -2,7 +2,7 @@
  *PROGRAM : To convert binary number into decimal number
  *FILE : binTOdec.c
  *CREATED BY : Himanshu Sekhar Nayak
- *DATED : 23/09/2019
+ *DATED : 27/09/2019
  */
 
 #include<stdio.h>
