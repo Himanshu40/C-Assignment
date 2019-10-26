@@ -1,6 +1,6 @@
 /*
- *PROGRAM : To display cosine series
- *FILE : cos_series.c
+ *PROGRAM : To display sum of cosine series
+ *FILE : cosine_series.c
  *CREATED BY : Himanshu Sekhar Nayak
  *DATED : 27/09/2019
  */

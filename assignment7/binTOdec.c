@@ -18,12 +18,12 @@ int main()
 	while(temp)
 	{
 		rem = temp % 10;
-		decimal += rem*place;;
+		decimal += rem*place;
 		place *= 2;
 		temp /= 10;
 	}
 
-	printf("The binary of %d is %d\n", num, decimal);
+	printf("The decimal of %d is %d\n", num, decimal);
 
 	return 0;
 }

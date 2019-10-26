@@ -1,5 +1,5 @@
 /*
- *PROGRAM : To display sine series
+ *PROGRAM : To display sum of sine series
  *FILE : sine_series.c
  *CREATED BY : Himanshu Sekhar Nayak
  *DATED : 27/09/2019

@@ -1,6 +1,6 @@
 /*
  *PROGRAM : To convert odd position digits numbers into cube and for even position digits into square
- *FILE : binTOdec.c
+ *FILE : manipulate.c
  *CREATED BY : Himanshu Sekhar Nayak
  *DATED : 27/09/2019
  */
