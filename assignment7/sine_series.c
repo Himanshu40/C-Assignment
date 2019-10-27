@@ -10,7 +10,7 @@
 int main()
 {
 	double num, fact, sum = 0;
-	int n, i, temp, sign = -1, j=1;
+	int n, i, temp, sign = 1, j=1;
 
 	printf("Enter the value of X in radians for sine series: ");
 	scanf("%lf", &num);
