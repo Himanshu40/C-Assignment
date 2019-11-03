@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+	int n, i, num, arr1[20], choice = 1;
+
+	START:
+	printf("How much numbers you want to input?\n");
+	scanf("%d", &n);
+
+	if(n>20)
+	{
+		printf("Range is above than 20 and can't insert further. RETRY!!!\n");
+		goto START;
+	}
+	else
+	{
+		printf("Enter the numbers for an array:-\n");
+		for(i=0; i<n; ++i)
+			scanf("%d", &arr1[i]);
+
+		printf("\nElements in an array:-\n");
+		for(i=0; i<n; ++i)
+			printf("%d ", arr1[i]);
+
+		while(choice)
+		{
+			printf("\nWhich number you want to insert?\n");
+			scanf("%d", &num);
+
+			n++;
+			arr1[n-1] = num;
+
+                	printf("\nElements in an array after a given no.:-\n");
+               	 	for(i=0; i<n; ++i)
+                        	printf("%d ", arr1[i]);
+
+			printf("\nDo you want to insert anymore?(1 for T/0 for F)\n");
+			scanf("%d", &choice);
+		}
+
+	}
+
+	return 0;
+}
