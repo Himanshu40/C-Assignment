@@ -7,9 +7,9 @@ int main()
 	printf("How many number of students mark you want to input?\n");
 	scanf("%d", &stud);
 
-	if(stud > 30)
+	if((stud > 30) && (stud >= 3))
 	{
-		printf("\nRange of students is greater than 30. RETRY!!!\n");
+		printf("\nRange of students is greater than 30 or less than 3. RETRY!!!\n");
 		goto START;
 	}
 	else
@@ -32,12 +32,10 @@ int main()
 			per[i] = (float)per[i]/400*100;
 		}
 
-		printf("\n---MARKS & PERCENTAGE OF STUDENTS---\n");
+		printf("\n---PERCENTAGE OF STUDENTS---\n");
 		for(i=0; i<stud; ++i)
 		{
 			printf("\nSTUDENT NO. %d\n", i+1);
-			for(j=0; j<4; ++j)
-				printf("SUBJECT %d MARKS = %d\n", j+1, marks[i][j]);
 			printf("PERCENTAGE = %d\n", per[i]);
 		}
 

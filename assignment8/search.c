@@ -22,7 +22,7 @@ int main()
 		for(i=0; i<n; ++i)
 			printf("%d ", arr1[i]);
 
-		printf("Which number you want to search?\n");
+		printf("\nWhich number you want to search?\n");
 		scanf("%d", &num);
 
 		for(i=0; i<n; ++i)
