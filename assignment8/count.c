@@ -10,7 +10,7 @@ int main()
 	if(n>20)
 	{
 		printf("Range is above than 20. RETRY!!!\n");
-		goton the array:-\n");
+		goto START;
 	}
 	else
 	{
