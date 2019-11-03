@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int i, rem, arr[20], index = 0;
+	int i, rem, arr[20], index = 0, count = 0;
 	long int num, temp;
 
 	START:
