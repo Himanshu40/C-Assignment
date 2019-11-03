@@ -19,10 +19,8 @@ int main()
 		{
 			scanf("%d", &temp);
 			for(j=0; j<p; ++j)
-			{
 				if(temp <= arr1[j]) //To keep duplicate numbers
 					break;
-			}
 			for(l=p-1; l>=j; l--)
 				arr1[l+1] = arr1[l];
 			arr1[j] = temp;

@@ -11,12 +11,10 @@ int main()
 	{
 		printf("Range is above than 20. RETRY!!!\n");
 		goton the array:-\n");
-		for(i=0; i<n; ++i)
-			printf("%d ", arr1[i]); START;
 	}
 	else
 	{
-		printf("Enter the numbers for 1st array:-\n");
+		printf("Enter the numbers into an array:-\n");
 		for(i=0; i<n; ++i)
 			scanf("%d", &arr1[i]);
 
