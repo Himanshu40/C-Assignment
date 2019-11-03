@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-        int n, i, j, num, arr1[20], choice = 1, count = 0;
+        int n, i, j, num, arr1[20], choice = 1;
 
         START:
         printf("How much numbers you want to input?\n");
@@ -28,15 +28,15 @@ int main()
                         scanf("%d", &num);
 
                         for(i=0; i<n; ++i)      //Deleting no. in its proper place
-				if(arr1[i] == num)
+				if(arr1[i] == num && i < n)
 				{
-					for(j=i; j<(n-count); j++)
+					n--;
+					for(j=i; j<n; j++)
 						arr1[j] = arr1[j+1];
-					count++;
 				}			
 
                         printf("\nNumbers in an array after deletion:-\n");
-                        for(i=0; i<(n-count); ++i)      //Printing the array
+                        for(i=0; i<n; ++i)      //Printing the array
                                 printf("%d ", arr1[i]);
 
                         printf("\nDo you want to delete anymore?(1 for T/0 for F)\n");

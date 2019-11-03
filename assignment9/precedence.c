@@ -9,7 +9,7 @@ int main()
 
         if(n>20)
         {
-                printf("Range is above than 20 & can't insert further. RETRY!!!\n");
+                printf("Range is above than 20. RETRY!!!\n");
                 goto START;
         }
 	else
@@ -19,10 +19,8 @@ int main()
 		{
 			scanf("%d", &temp);
 			for(j=0; j<p; ++j)
-			{
 				if(temp <= arr1[j]) //To keep duplicate numbers
 					break;
-			}
 			for(l=p-1; l>=j; l--)
 				arr1[l+1] = arr1[l];
 			arr1[j] = temp;
@@ -58,7 +56,7 @@ int main()
 
 			if(n > 20)
 			{
-				printf("\nYou can't add furthermore\n");
+				printf("\nYou can't insert furthermore\n");
 				break;
 			}
 
