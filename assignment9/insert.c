@@ -9,7 +9,7 @@ int main()
 
 	if(n>20)
 	{
-		printf("Range is above than 20 and can't insert further. RETRY!!!\n");
+		printf("Range is above than 20. RETRY!!!\n");
 		goto START;
 	}
 	else
@@ -33,6 +33,12 @@ int main()
                 	printf("\nElements in an array after a given no.:-\n");
                	 	for(i=0; i<n; ++i)
                         	printf("%d ", arr1[i]);
+
+			if(n > 20)
+			{
+				printf("\nYou can't insert furthermore\n");
+				break;
+			}
 
 			printf("\nDo you want to insert anymore?(1 for T/0 for F)\n");
 			scanf("%d", &choice);

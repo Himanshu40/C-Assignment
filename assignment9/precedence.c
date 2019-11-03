@@ -39,6 +39,7 @@ int main()
 			scanf("%d", &num);
 
 			for(i=0; i<n; ++i)	//Inserting no. in its proper place
+			{
 				if(arr1[i] >= num)
 				{
 					for(j=n-1; j>=i; j--)
@@ -46,10 +47,20 @@ int main()
 					arr1[i] = num;
 					break;
 				}
+				if(i == (n-1))
+					arr1[n] = num;
+			}
+			n++;
 
                 	printf("\nNumbers in an array after insertion to its proper place:-\n");
                 	for(i=0; i<n; ++i)      //Printing the array
                         	printf("%d ", arr1[i]);
+
+			if(n > 20)
+			{
+				printf("\nYou can't add furthermore\n");
+				break;
+			}
 
 			printf("\nDo you want to insert anymore?(1 for T/0 for F)\n");
 			scanf("%d", &choice);
