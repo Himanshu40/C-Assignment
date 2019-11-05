@@ -27,17 +27,27 @@ int main()
                         printf("\nWhich number you want to delete?\n");
                         scanf("%d", &num);
 
+			DELETE:
                         for(i=0; i<n; ++i)      //Deleting no. in its proper place
-				if(arr1[i] == num && i < n)
-				{
-					n--;
-					for(j=i; j<n; j++)
-						arr1[j] = arr1[j+1];
-				}			
+				if(arr1[i] == num)
+					break;
+
+			if(i<n)
+			{
+				n--;
+				for(j=i; j<n; j++)
+					arr1[j] = arr1[j+1];
+				goto DELETE;
+			}			
 
                         printf("\nNumbers in an array after deletion:-\n");
                         for(i=0; i<n; ++i)      //Printing the array
                                 printf("%d ", arr1[i]);
+
+			if(n == 0)
+			{
+				printf("\nYou can't delete anymore!!!\n");
+			}
 
                         printf("\nDo you want to delete anymore?(1 for T/0 for F)\n");
                         scanf("%d", &choice);
