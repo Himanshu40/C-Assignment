@@ -47,6 +47,7 @@ int main()
 			if(n == 0)
 			{
 				printf("\nYou can't delete anymore!!!\n");
+				break;
 			}
 
                         printf("\nDo you want to delete anymore?(1 for T/0 for F)\n");
