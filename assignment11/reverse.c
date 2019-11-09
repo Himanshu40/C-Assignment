@@ -22,8 +22,7 @@ int main()
 	}
 		
 	printf("\n---Reversing the string---\n");
-	printf("%s", string);
-	printf("\n");
+	printf("%s\n", string);
 
 	return 0;
 }
