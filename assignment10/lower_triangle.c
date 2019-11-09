@@ -30,10 +30,11 @@ int main()
 
 		printf("\n---LOWER TRIANGLE OF THE MATRIX---\n");
 		for(i=0; i<row; ++i)
+		{
 			for(j=0; j<=i; ++j)
 				printf("%d ", matrix[i][j]);
-
-		printf("\n");
+			printf("\n");
+		}
 	}
 
 	return 0;

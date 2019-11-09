@@ -30,9 +30,7 @@ int main()
 
 		printf("\n---LEFT DIAGONAL OF THE MATRIX---\n");
 		for(i=0; i<row; ++i)
-			for(j=0; j<col; ++j)
-				if(i == j)
-					printf("%d ", matrix[i][j]);
+			printf("%d ", matrix[i][i]);
 
 		printf("\n");
 	}

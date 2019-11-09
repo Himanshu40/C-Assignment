@@ -30,12 +30,10 @@ int main()
 
 		printf("\n---RIGHT DIAGONAL OF THE MATRIX---\n");
 		for(i=0; i<row; ++i)
-			for(j=0; j<col; ++j)
-				if(j == col-1)
-				{
-					printf("%d ", matrix[i][col-1]);
-					col--;
-				}
+		{
+			printf("%d ", matrix[i][col-1]);
+			col--;
+		}
 
 		printf("\n");
 	}
