@@ -24,6 +24,8 @@ int main()
 		string[i+1] = string[i];
 	string[pos-1] = word;
 
+	string[len+1] = '\0';
+
 	printf("\n---NEW WORD---\n");
 	printf("%s\n", string);
 
