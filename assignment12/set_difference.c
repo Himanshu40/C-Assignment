@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-        int array1[50], array2[50], array3[100];
+        int array1[50], array2[50];
         int i, j, size1, size2, choice, r = 0;
 
         START:
@@ -34,27 +34,37 @@ int main()
 
 		switch(choice)
 		{
-			case 1:for(i=0; i<size1; ++i)
+			case 1:printf("\nArray1/Array2:-\n");
+			       for(i=0; i<size1; ++i)
+			       {
                         		for(j=0; j<size2; ++j)
-                                		 	
-				break;
-			case 2:for(i=0; i<size2; ++i)
+						if(array1[i] != array2[j])
+							r++;
+					if(j == r)
+					{
+						printf("%d ", array1[i]);
+						printf("\n");
+					}
+					r = 0;
+			       } 		 	
+			       break;
+			case 2:printf("\nArray2/Array1:-\n");
+			       for(i=0; i<size2; ++i)
+			       {
 					for(j=0; j<size1; ++j)
 						if(array2[i] != array1[j])
-						{
-							array3[r] = array2[j];
 							r++;
-						}
-				break;
+					if(j == r)
+					{
+						printf("%d ", array2[i]);
+						printf("\n");
+					}
+					r = 0;
+			       }
+			       break;
 			default:printf("\nINVALID CHOICE");
 				goto CHOICE;
 		}
-
-                printf("\n\t---SET INTERSECTION OF TWO ARRAYS---\n");
-                for(i=0; i<r; ++i)
-                        printf("%d ", array3[i]);
-
-                printf("\n");
         }
 
         return 0;
