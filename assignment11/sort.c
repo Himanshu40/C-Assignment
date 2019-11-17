@@ -19,7 +19,7 @@ int main()
 				string[j+1] = temp;
 			}
 
-	printf("\nReversing in descending order:-\n");
+	printf("\nPrinting in descending order:-\n");
 	printf("%s\n", string);
 
 	return 0;
