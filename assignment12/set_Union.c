@@ -8,7 +8,7 @@ int main()
 	printf("\t---SET UNION OPERATION---\n");
 	printf("\nHow many elements you want for 1st array?\n");
 	scanf("%d", &size1);
-	printf("How many elements you want for 2nd array\n");
+	printf("How many elements you want for 2nd array?\n");
 	scanf("%d", &size2);
 
 	if((size1 > 50) && (size2 > 50))
@@ -19,21 +19,18 @@ int main()
 	else
 	{
 		printf("\nEnter the elements for 1st array:-\n");
-		for(i=0; i<size1; ++i)		//Deleting multiple elements while input in 1st array
+		for(i=0; i<size1; ++i)		
 			scanf("%d", &array1[i]);
 
 		printf("\nEnter elements for 2nd array:-\n");
-		for(i=0; i<size2; ++i)		//Deleting multiple elements while input in 2nd array
+		for(i=0; i<size2; ++i)		
 			scanf("%d", &array2[i]);
 
 		for(i=0; i<size1; ++i)
 			array3[i] = array1[i];
 
 		for(j=0; j<size2; ++j)
-		{
-			array3[i] = array2[j];
-			i++;
-		}
+			array3[i++] = array2[j];
 
 		for(i=0; i<(size1+size2); ++i)
 		{

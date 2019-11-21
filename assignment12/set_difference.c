@@ -8,7 +8,7 @@ int main()
         printf("\t---SET DIFFERENCE OPERATION---\n");
         printf("\nHow many elements you want for 1st array?\n");
         scanf("%d", &size1);
-        printf("How many elements you want for 2nd array\n");
+        printf("How many elements you want for 2nd array?\n");
         scanf("%d", &size2);
 
         if((size1 > 50) && (size2 > 50))
@@ -22,7 +22,7 @@ int main()
                 for(i=0; i<size1; ++i)          
                         scanf("%d", &array1[i]);
 
-                printf("\nEnter elements for 2nd array:-\n");
+                printf("\nEnter the elements for 2nd array:-\n");
                 for(i=0; i<size2; ++i)          
                         scanf("%d", &array2[i]);
 
