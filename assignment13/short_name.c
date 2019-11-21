@@ -13,13 +13,11 @@ int main()
 	printf("\n---SHORT NAME---\n");
 	START:
 	for(i=j; string[i] != ' '; ++i)
-	{
 		if(string[i] == '\0')
 			break;
 		else 
 			word[k] = string[i];
-		k++;
-	}
+
 	word[k] = '\0';
 
 	printf("%c ", word[0]);

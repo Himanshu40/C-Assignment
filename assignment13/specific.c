@@ -16,13 +16,11 @@ int main()
 
 	START:
 	for(i=j; string[i] != ' '; ++i)
-	{
 		if(string[i] == '\0')
 			break;
 		else 
 			word[k] = string[i];
-		k++;
-	}
+
 	word[k] = '\0';
 	
 	if((word[0] == search) || ((word[0] + 32) == search))
