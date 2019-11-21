@@ -17,10 +17,13 @@ int main()
 	printf("\n---WORDS WITH SPECIFIC ALPHABET---\n");
 	START:
 	for(i=j; string[i] != ' '; ++i)
+	{
 		if(string[i] == '\0')
 			break;
 		else 
-			word[k++] = string[i];
+			word[k] = string[i];
+		k++;
+	}
 
 	word[k] = '\0';
 	
