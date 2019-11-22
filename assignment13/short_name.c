@@ -16,7 +16,7 @@ int main()
 		if(string[i] == '\0')
 			break;
 		else 
-			word[k] = string[i];
+			word[k++] = string[i];
 
 	word[k] = '\0';
 
