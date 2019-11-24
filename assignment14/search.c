@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
 	char string[10][50], word[10], search[10];
