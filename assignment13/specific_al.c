@@ -2,12 +2,12 @@
 int main()
 {
 	char search, word[15], string[100];
-	int i, l, k = 0, j = 0;
+	int i, l, k = 0, j = 0, check = 0;
 
 	printf("Enter the string:-\n");
 	scanf("%[^\n]", string);
 
-	printf("\nThe string is :-\n");
+	printf("\nThe string is:-\n");
 	printf("%s\n", string);
 	
 	printf("\nWhich specific alphabet to search?\n");
@@ -20,13 +20,17 @@ int main()
 		if(string[i] == '\0')
 			break;
 		else 
-			word[k] = string[i];
+			word[k++] = string[i];
 
 	word[k] = '\0';
 	
 	for(l=0; word[l] != '\0'; ++l)
-        	if((word[l] == search) || ((word[l] + 32) == search))
+        	if(word[l] == search)
+		{
+			check = 1;
 			printf("%s\n", word);
+			break;
+		}
 
 	if(string[i] == ' ')
 	{	
@@ -38,6 +42,7 @@ int main()
 		goto END;
 
 	END:
-		printf("\n");
+	if(check == 0)
+		printf("The specific char is not found\n");
 	return 0;
 }

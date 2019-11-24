@@ -7,7 +7,7 @@ int main()
 	printf("Enter the string:-\n");
 	scanf("%[^\n]", string);
 
-	printf("The string is :-\n");
+	printf("The string is:-\n");
 	printf("%s\n", string);
 
 	printf("\n---FIRST TWO SHORT NAME---\n");
