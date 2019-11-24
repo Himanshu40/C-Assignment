@@ -6,7 +6,7 @@ void divbyseven(int num)
 		printf("%d is an odd number and divisble by 7\n", num);
 	else if((num%2 != 0) && (num%7 != 0))
 		printf("%d is an odd number but not divisble by 7\n", num);
-	else if((num%2 == 0) && (num%7 != 0))
+	else if((num%2 == 0) && (num%7 == 0))
 		printf("%d is not an odd number but divisble by 7\n", num);
 	else
 		printf("%d is not an odd number and not divisble by 7\n", num);
