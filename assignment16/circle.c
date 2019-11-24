@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-float operation(float p, float *area, float *perimeter)
+void operation(float p, float *area, float *perimeter)
 {
 	*area = 3.14*p*p;
 	*perimeter = 2*3.14*p;
