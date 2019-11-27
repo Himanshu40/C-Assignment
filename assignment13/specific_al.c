@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print words with specific char in a string
+ *FILE: specific_al.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

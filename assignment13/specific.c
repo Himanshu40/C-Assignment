@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print number of words starting with specific character
+ *FILE: specific.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

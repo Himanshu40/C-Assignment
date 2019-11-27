@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print middle name of a name
+ *FILE: middle_name.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

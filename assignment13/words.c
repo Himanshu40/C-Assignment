@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print number of words starting and ending with specific char
+ *FILE: words.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {
@@ -23,7 +30,7 @@ int main()
 
 	word[k] = '\0';
 	
-	if(((word[0] == search) || ((word[0] + 32) == search)) && ((word[k-1] == search) || ((word[k-1] +32) == search)))
+	if(((word[0] == search) || ((word[0] + 32) == search)) && ((word[k-1] == search) || ((word[k-1] + 32) == search)))
 		count++;
 
 	if(string[i] == ' ')

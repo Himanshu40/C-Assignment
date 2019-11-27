@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print number of words whose lenght is more than 3
+ *FILE: moreThan3.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()

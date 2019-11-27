@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print short name of a full name(e.g H S N)
+ *FILE: short_name.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

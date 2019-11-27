@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print "INDIA" in right-angled triangle pattern
+ *FILE: pattern.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

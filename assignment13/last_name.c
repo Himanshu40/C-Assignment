@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print surname with first name & middle name(e.g Nayak Himanshu Sekhar)
+ *FILE: last_name.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

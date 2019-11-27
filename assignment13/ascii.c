@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print ASCII equivalent of each char in 2D array
+ *FILE: ascii.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

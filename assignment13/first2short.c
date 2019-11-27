@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print first two short names and last name(e.g H S Nayak)
+ *FILE: first2short.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {

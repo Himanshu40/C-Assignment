@@ -1,4 +1,10 @@
-//This code can search single occurence and multiple occurences in a string
+/*
+ *PROGRAM: To search & replace a word in a string(e.g can replace single occurences and multiple occurences)
+ *FILE: search.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -20,7 +26,7 @@ int main()
 	fgetc(stdin);
 	scanf("%s", &replace);
 
-	START:
+	START: 				//This code can search single occurence and multiple occurences in a string
 	for(i=j; string[i] != ' '; ++i)
 		if(string[i] == '\0')
 			break;

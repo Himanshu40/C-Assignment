@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print surname of a name
+ *FILE: sur_name.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 04/11/2019
+ */
+
 #include<stdio.h>
 int main()
 {
