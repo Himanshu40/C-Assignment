@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print lower triangle of a matrix
+ *FILE: lower_triangle.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 24/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

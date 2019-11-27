@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print left diagonal of a matrix
+ *FILE: left_diagonal.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 24/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

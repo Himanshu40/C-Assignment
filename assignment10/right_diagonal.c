@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print right diagonal of a matrix
+ *FILE: right_diagonal.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 24/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {
