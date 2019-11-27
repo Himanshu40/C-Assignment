@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To perform set intersection
+ *FILE: set_intersection.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 24/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

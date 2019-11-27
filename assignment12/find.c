@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To find biggest and smallest number in an array & their difference
+ *FILE: find.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 24/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {
