@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To count number of vowels present in a string
+ *FILE: vowels.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 28/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

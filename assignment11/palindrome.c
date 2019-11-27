@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To check if a string is palindrome or not
+ *FILE: palindrome.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 28/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

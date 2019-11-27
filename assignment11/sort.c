@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To sort a string in descending order
+ *FILE: sort.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 28/10/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()

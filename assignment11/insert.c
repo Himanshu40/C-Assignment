@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To insert a char at specific position
+ *FILE: insert.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 28/10/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -5,10 +12,10 @@ int main()
 	char word, string[100];
 	int i, len, pos;
 
-	printf("Enter any word:-\n");
+	printf("Enter the string:-\n");
 	scanf("%[^\n]", string);
 
-	printf("\nThe word is:-\n");
+	printf("\nThe string:-\n");
 	printf("%s", string);
 
 	printf("\nWhich character you want to insert?\n");
@@ -26,7 +33,7 @@ int main()
 
 	string[len+1] = '\0';
 
-	printf("\n---NEW WORD---\n");
+	printf("\n---NEW STRING---\n");
 	printf("%s\n", string);
 
 	return 0;

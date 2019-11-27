@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To reverse a string
+ *FILE: reverse.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 28/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {
