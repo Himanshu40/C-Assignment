@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To search a key element & it's number of occurences
+ *FILE: search.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

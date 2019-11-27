@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To store the digits of a number in an array
+ *FILE: digits.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

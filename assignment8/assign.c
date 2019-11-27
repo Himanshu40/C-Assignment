@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To store & print even numbers in 2nd array and odd numbers in 3rd array
+ *FILE: assign.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

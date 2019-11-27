@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print digits of a number in words
+ *FILE: word.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

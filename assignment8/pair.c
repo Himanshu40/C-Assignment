@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To count pair of elements in an array greater than 20
+ *FILE: pair.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print top three percentage scoreres in a class
+ *FILE: percentage.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

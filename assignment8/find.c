@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print 2nd largest and 2nd smallest number in an array
+ *FILE: find.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

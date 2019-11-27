@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To copy the content of an array in reverse order
+ *FILE: copyarray.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

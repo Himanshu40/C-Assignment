@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To count number of even numbers and odd numbers in an array
+ *FILE: count.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 21/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {
