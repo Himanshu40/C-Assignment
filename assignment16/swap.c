@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To swap two variables using call by reference
+ *FILE: swap.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 22/11/2019
+ */
+
 #include<stdio.h>
 
 void swap(int *p, int *q)

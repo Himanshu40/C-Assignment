@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To calculate area & circumference of circle using call by reference
+ *FILE: circle.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 22/11/2019
+ */
+
 #include<stdio.h>
 
 void operation(float p, float *area, float *perimeter)

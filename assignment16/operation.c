@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To perform arithmetic operations using call by reference
+ *FILE: operation.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 22/11/2019
+ */
+
 #include<stdio.h>
 
 void operation(int num1, int num2, int *sum, int *sub, int *mul, int *div, int *mod)
