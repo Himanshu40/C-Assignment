@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To insert a number according to its precedence
+ *FILE: precedence.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 23/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

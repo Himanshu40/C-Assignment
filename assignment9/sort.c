@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To sort elements in ascending order
+ *FILE: sort.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 23/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To delete multiple elements in an array
+ *FILE: multiple_delete.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 23/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {

@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To search and delete a number in an array
+ *FILE: search.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 23/10/2019
+ */
+
 #include<stdio.h>
 int main()
 {
