@@ -11,7 +11,7 @@ int main()
 	printf("How many elements you want for 2nd array?\n");
 	scanf("%d", &size2);
 
-	if((size1 > 50) && (size2 > 50))
+	if((size1 > 50) || (size2 > 50))
 	{
 		printf("\nSize exceeds more than 50. RETRY !!!\n");
 		goto START;
