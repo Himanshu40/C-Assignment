@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To perform 10 operations using functions
+ *FILE: multipleops.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: /11/2019
+ */
+
 #include<stdio.h>
 
 void divbyseven(int num)
