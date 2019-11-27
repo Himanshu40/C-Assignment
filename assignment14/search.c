@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To search a word and print line number in 2D array
+ *FILE: search.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 06/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()

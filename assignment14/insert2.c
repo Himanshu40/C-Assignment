@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To insert 2nd line in 2D array
+ *FILE: insert2.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 06/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()

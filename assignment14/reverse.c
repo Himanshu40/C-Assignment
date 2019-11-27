@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To print each line in reverse order in 2D array
+ *FILE: reverse.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 06/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()

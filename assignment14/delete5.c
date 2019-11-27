@@ -1,3 +1,10 @@
+/*
+ *PROGRAM: To delete 5th line in 2D array
+ *FILE: delete5.c
+ *CREATED BY: Himanshu Sekhar Nayak
+ *DATED: 06/11/2019
+ */
+
 #include<stdio.h>
 #include<string.h>
 int main()
