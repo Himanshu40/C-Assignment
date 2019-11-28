@@ -10,7 +10,7 @@
 int main()
 {
 	char search[10], replace[10], word[15], string[100], new[150];
-	int i, k = 0, j = 0, l, count = 0, check = 0;
+	int i, k = 0, j = 0, count = 0, check = 0;
 
 	printf("Enter the string:-\n");
 	scanf("%[^\n]", string);
