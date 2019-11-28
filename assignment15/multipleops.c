@@ -42,7 +42,7 @@ void fibonacci(int num)
 
 void perfectno(int num)
 {
-	int i, result;
+	int i, result = 0;
 
         for(i = 1; i <= (num/2); ++i)
                 if(num % i == 0)
