@@ -1,7 +1,7 @@
 # C-Assignment<img align="right" width="100" height="100" src="https://github.com/Himanshu40/C-Assignment/blob/master/Images/C.png">
-
-
 Assignment programs for IMCA 2019-2024
+#### Owned by Himanshu Sekhar Nayak
+##### Contributions to this project are welcome !!!!
 
 ##### [Assignment 1](https://github.com/Himanshu40/C-Assignment/tree/master/assignment1)
 ##### [Assignment 2](https://github.com/Himanshu40/C-Assignment/tree/master/assignment2)
