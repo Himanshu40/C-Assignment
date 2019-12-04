@@ -2,7 +2,7 @@
  *PROGRAM: To perform arithmetic operations using functions
  *FILE: arithmetic.c
  *CREATED BY: Himanshu Sekhar Nayak
- *DATED: /11/2019
+ *DATED: 11/11/2019
  */
 
 #include<stdio.h>
