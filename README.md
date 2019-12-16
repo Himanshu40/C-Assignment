@@ -19,3 +19,6 @@ Assignment programs for IMCA 2019-2024
 ##### [Assignment 14](https://github.com/Himanshu40/C-Assignment/tree/master/assignment14)
 ##### [Assignment 15](https://github.com/Himanshu40/C-Assignment/tree/master/assignment15)
 ##### [Assignment 16](https://github.com/Himanshu40/C-Assignment/tree/master/assignment16)
+##### [Assignment 17](https://github.com/Himanshu40/C-Assignment/tree/master/assignment17)
+##### [Assignment 18](https://github.com/Himanshu40/C-Assignment/tree/master/assignment18)
+##### [Assignment 19](https://github.com/Himanshu40/C-Assignment/tree/master/assignment19)
