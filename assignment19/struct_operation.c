@@ -43,8 +43,8 @@ void display(EMP *E)
 	for(i=0; i<range; ++i)
 	{
 		printf("\n---EMP %d---\n", i+1);
-		printf("NAME: %s\n", (E + i)->emp_name);
 		printf("EMP ID: %d\n", (E + i)->emp_id);
+		printf("NAME: %s\n", (E + i)->emp_name);
 		printf("DEPT. NAME: %s\n", (E + i)->emp_dept);
 		printf("BASIC SALARY: %.2f\n", (E + i)->emp_sal);
 	}
