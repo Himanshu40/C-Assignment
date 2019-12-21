@@ -4,7 +4,7 @@
 void count_words(char *string)
 {
 	char search, word[10];
-	int i, l, count, j=0, k = 0,check = 0;
+	int i, l, count = 0, j=0, k = 0,check = 0;
 
 	printf("Which specific char to search?\n");
 	fgetc(stdin);
