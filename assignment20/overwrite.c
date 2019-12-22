@@ -24,7 +24,7 @@ void insert(const char *filename)
 void overwrite(const char *filename)
 {
 	FILE *fp;
-	int i, posn, buffer = 0;
+	int i, posn;
 	char ch;
 
 	fp = fopen(filename, "r+");
@@ -55,8 +55,6 @@ void overwrite(const char *filename)
 
 int main(int argc, char *argv[])
 {
-	int posn;
-
 	system("clear");
 
 	if(argc != 2)
