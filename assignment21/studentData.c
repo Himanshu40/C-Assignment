@@ -88,6 +88,7 @@ void display(student *S)
                                                                                           (S + i)->contactNo);
     printf("\n");
   }
+  fclose(fp);
 }
 
 void count(student *S)
