@@ -43,7 +43,8 @@ void displayWords()
     if(ch[0] == EOF)
       break;
     if(ch[0] != ' ')
-      strcat(word, ch);
+      if(ch[0] != '\n')
+        strcat(word, ch);
     if(ch[0] == ' ' || ch[0] == '\n')
     {
       if(strlen(word) > 4)
