@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void insert()
+void insert(const char *filename)
 {
   FILE *fp;
   char ch;
 
-  fp = fopen("words.txt", "w");
+  fp = fopen(filename, "w");
 
   if(!fp)
   {
@@ -21,12 +21,12 @@ void insert()
   fclose(fp);
 }
 
-void displayReverse()
+void displayReverse(const char *filename)
 {
   FILE *fp;
   char ch;
 
-  fp = fopen("words.txt", "r");
+  fp = fopen(filename, "r");
 
   if(!fp)
   {
@@ -34,7 +34,7 @@ void displayReverse()
   	exit(0);
   }
 
-  printf("\n\t---TO DISPLAY EACH LINE IN REVERSE ORDER---\n");
+  printf("\n\t---TO DISPLAY IN REVERSE ORDER---\n");
   fseek(fp, -1L, SEEK_END);
   while(ftell(fp) >= 0)
   {
@@ -47,12 +47,18 @@ void displayReverse()
   fclose(fp);
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   system("clear");
 
-  insert();
-  displayReverse();
+  if(argc != 2)
+  {
+    fprintf(stderr, "File creation error\n");
+    return 0;
+  }
+
+  insert(argv[1]);
+  displayReverse(argv[1]);
 
   return 0;
 }
