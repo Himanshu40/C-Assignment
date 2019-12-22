@@ -72,7 +72,7 @@ void display(student *S)
 		exit(0);
   }
 
-  printf("\n\t---DISPLAY OF STUDENT RECORD\n");
+  printf("\n\t---DISPLAY OF STUDENT RECORD---\n");
   for(i=0; i<size; ++i)
   {
     fscanf(fp, "%d %s %c %s %ld\n", &(S + i)->rollNo,
