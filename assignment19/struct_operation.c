@@ -60,13 +60,13 @@ void search_deleteEmpID(EMP *E)
 	for(i=0; i<range; ++i)
 		if(search == ((E + i)->emp_id))
 		{
-			check = 1;
+			check++;
 			for(j=i; j<range; ++j)
 				*(E + j) = *(E + (j + 1));
 			range--;
 		}
 
-	if(check == 1)
+	if(check)
 		display(E);
 	else
 		printf("\nEMP ID not found in the record!!!\n");
@@ -83,13 +83,13 @@ void search_deleteDeptName(EMP *E)
 	for(i=0; i<range; ++i)
 		if(strcasecmp((E + i)->emp_dept, search) == 0)
 		{
-			check = 1;
+			check++;
 			for(j=i; j<range; ++j)
 				*(E + j) = *(E + (j + 1));
 			range--;
 		}
 
-	if(check == 1)
+	if(check)
 		display(E);
 	else
 		printf("\nDEPT. NAME not found in the record!!!\n");
