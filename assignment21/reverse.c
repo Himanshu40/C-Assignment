@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 void insert()
 {
@@ -24,7 +25,8 @@ void insert()
 void displayReverse()
 {
   	FILE *fp;
-  	char ch;
+  	char ch, string[30] = {0};
+	int i, m = 0;
 
  	fp = fopen("words.txt", "r");
 
@@ -35,15 +37,21 @@ void displayReverse()
   	}
 
   	printf("\n\t---TO DISPLAY EACH LINE IN REVERSE ORDER---\n");
-  	fseek(fp, -1L, SEEK_END);
-  	while(ftell(fp) >= 0)
-  	{
-    		ch = fgetc(fp);
-    		printf("%c", ch);
-    		if(fseek(fp, -2L, SEEK_CUR) == -1)
-      			break;
-  	}
-  	printf("\n");
+  	
+	while((ch=fgetc(fp)) != EOF)
+	{
+		if(ch != '\n')
+			string[m++] = ch;
+		if(ch == '\n')
+		{
+			for(i=m-1; i>=0; --i)
+				printf("%c", string[i]);
+			printf("\n");
+			memset(string, 0, 30*sizeof(char));
+			m = 0;
+		}
+	}
+
   	fclose(fp);
 }
 
