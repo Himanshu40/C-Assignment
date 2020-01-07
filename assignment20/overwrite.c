@@ -18,6 +18,8 @@ void insert(const char *filename)
 	while((ch = fgetc(stdin)) != EOF)
 		fputc(ch, fp);
 
+	getc(stdin);
+	fflush(stdin);
 	fclose(fp);
 }
 
@@ -36,7 +38,6 @@ void overwrite(const char *filename)
 	}
 
 	printf("Enter the position to overwite towards 10 bytes: ");
-	//while((buffer = getchar()) != '\n' && buffer != EOF);
 	scanf("%d", &posn);
 
 	printf("\nEnter the chars to overwrite:-\n");

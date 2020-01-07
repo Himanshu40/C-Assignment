@@ -12,9 +12,11 @@ int main()
 
 	printf("Enter 1st alphabet: ");
 	scanf("%c", &alph1);
-        printf("Enter 2nd alphabet: "); 
+        printf("Enter 2nd alphabet: ");
+       	fgetc(stdin);	
         scanf("%c", &alph2);
         printf("Enter 3rd alphabet: ");
+	fgetc(stdin);
         scanf("%c", &alph3);
 
 	alph1 = alph1 & ~32;
